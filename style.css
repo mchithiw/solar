@@ -1,0 +1,195 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Raleway";
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("star.jpg");
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    border: none;
+    color: #4d8eb1;
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    font-size: 26px;
+    line-height: 10vh;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    top: 95%;
+    left: 0%;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 2vh;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 20%;
+    left: 0%;
+}
+
+.system{
+    position: absolute;
+    list-style: none;
+    width: 90%;
+    height: 50%;
+    top: 25%;
+    left: 0%;
+}
+
+.desc{
+    position: absolute;
+    top: 25%;
+    left: 10vw;
+    width: 80vw;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.but{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    color: black;
+}
+
+.system li{
+    display: inline;
+    height: 100%;
+    margin: 0 1.5vw;
+}
+
+.object{
+    cursor: pointer;
+}
+
+#sun{
+    width: 123px;
+    height: 125px;
+}
+
+#mercury{
+    width: 45px;
+    height: 43px;
+}
+
+#venus{
+    width: 50px;
+    height: 50px;
+}
+
+#earth{
+    width: 57px;
+    height: 57px;
+}
+
+#mars{
+    width: 50px;
+    height: 50px;
+}
+
+#jupiter{
+    width: 75px;
+    height: 75px;
+}
+
+#saturn{
+    width: 65px;
+    height: 65px;
+}
+
+#uranus{
+    width: 60px;
+    height: 60px;
+}
+
+#neptune{
+    width: 62px;
+    height: 62px;
+}
+
+@media (max-width: 990px) {
+    
+    .system li{
+        margin: 0 1vw;
+    }
+    
+    #sun{
+        width: 93px;
+        height: 94px;
+    }
+
+    #mercury{
+        width: 34px;
+        height: 33px;
+    }
+
+    #venus{
+        width: 38px;
+        height: 38px;
+    }
+
+    #earth{
+        width: 43px;
+        height: 43px;
+    }
+
+    #mars{
+        width: 38px;
+        height: 38px;
+    }
+
+    #jupiter{
+        width: 56px;
+        height: 56px;
+    }
+
+    #saturn{
+        width: 49px;
+        height: 49px;
+    }
+
+    #uranus{
+        width: 45px;
+        height: 45px;
+    }
+
+    #neptune{
+        width: 46px;
+        height: 46px;
+    }
+    
+}
