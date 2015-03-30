@@ -7,8 +7,8 @@
     
     <head>
         
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
         <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -19,116 +19,228 @@
     
     <body>
         
-        <div class="header"> Solar System - SWE Project</div>
+        <nav class="header"> SWE 3613 - Assignment 4</nav>
+        
         <div class="container">
         
-            <ul class="system">
-                <li class="listbox"> <img class="object" id="sun" src="sun.png" alt="Sun"/>
-                
-                    <div class="desc">
-                        
-                        The Sun is big and yellow. It is the Star in our Solar System. All the planets in our Solar System revolve around the Sun.
-                        <button class="but">Back</button>
-                    
-                    </div>
-                    
-                </li>
-                <li> <img class="object" id="mercury" src="mercury.png" alt="Mercury"/>
-                
-                    <div class="desc">
-                        
-                        Mercury is small. It's the first planet.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                    
-                </li>
-                <li> <img class="object" id="venus" src="venus.png" alt="Venus"/>
-                
-                    <div class="desc">
-                        
-                        Venus is has acid rains and is the second planet.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                    
-                </li>
-                <li> <img class="object" id="earth" src="earth.png" alt="Earth"/>
-                
-                    <div class="desc">
-                        
-                        Earth is where all the awesome people live. It's blue and full of water.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                
-                </li>
-                <li> <img class="object" id="mars" src="mars.png" alt="Mars"/>
-                
-                    <div class="desc">
-                        
-                        We're going to go to Mars soon!
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                
-                </li>
-                <li> <img class="object" id="jupiter" src="jupiter.png" alt="Jupiter"/>
-                
-                    <div class="desc">
-                        
-                        It's the biggest planet and has a huge storms.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                
-                </li>
-                <li> <img class="object" id="saturn" src="saturn.png" alt="Saturn"/>
-                
-                    <div class="desc">
-                        
-                       Saturn has big rings and is next to Jupiter.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>               
-                    
-                </li>
-                <li> <img class="object" id="uranus" src="uranus.png" alt="Uranus"/>
-                
-                    <div class="desc">
-                        
-                        Uranus is quite far and pretty cold.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                
-                </li>
-                <li> <img class="object" id="neptune" src="neptune.png" alt="Neotune"/>
-                
-                    <div class="desc">
-                        
-                        Neptune is the last planet and has very low temperatures due to its distance from the sun.
-                        
-                        <button class="but">Back</button>
-                    
-                    </div>
-                
-                </li>
-            </ul>
+            <div class="orbit" id="neptune-orbit"></div>
+            <div class="orbit" id="uranus-orbit"></div>
+            <div class="orbit" id="saturn-orbit"></div>
+            <div class="orbit" id="jupiter-orbit"></div>
+            <div class="orbit" id="mars-orbit"></div>
+            <div class="orbit" id="earth-orbit"></div>
+            <div class="orbit" id="venus-orbit"></div>
+            <div class="orbit" id="mercury-orbit"></div>
             
-            <div class="footer"> <a href="http://www.mehtabc.com">Mehtab</a>, Dejan, Shulvi, and Abi. </div>
+            <div class="planet-container">
+                
+              <img class="planet" id="neptune" src="Images/neptune.png" alt="neptune">
+                
+                <div class="desc">
+                        
+                         Neptune is the last planet in our Solar System (Excluding Pluto). It is made up of gas, and is generally very cold.
+                    
+                    <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Blueish-purple</li>
+                        <li> <span>Size Rank</span>: 4 </li>
+                        
+                    </ul>
+                    
+                        <button class="but">Back</button>
+                    
+                </div>
+                
+                <div class="name"> Neptune </div>
+                
+                
+            </div>
+            
+            <div class="planet-container">
+                
+              <img class="planet" id="uranus" src="Images/uranus.png" alt="uranus">
+                
+            <div class="desc">
+                        
+                        Uranus pales in comparision to its neighbors, Saturn and Jupiter, but it is still quite big compared to the Eartht. A unique characteristic of Uranus is that it rotates around the Sun in the opposite direction of all the other planets. 
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Greenish-blue </li>
+                        <li> <span>Size Rank</span>: 3 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Uranus </div>
+                
+            </div>
+            
+            <div class="planet-container">
+                
+              <img class="planet" id="saturn" src="Images/saturn.png" alt="saturn">
+                
+            <div class="desc">
+                        
+                        Saturn is the second largest planet in our Solar System, and is popularly known by its rings. Saturn also has many prominent Moons, with Titan being the most significant due to the fact that it has its own atmosphere.
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Yellow </li>
+                        <li> <span>Size Rank</span>: 2 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Saturn </div>
+                
+            </div>
+            
+             <div class="planet-container">
+                
+              <img class="planet" id="jupiter" src="Images/jupiter.png" alt="jupiter">
+                
+            <div class="desc">
+                        
+                        Jupiter is the giant of our Solar System, and is so huge that it has altered the paths of countless other celestial bodies in our Solar System. It is approximately 1120% of the Earth's size.
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Brown </li>
+                        <li> <span>Size Rank</span>: 1 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                 
+                 <div class="name"> Jupiter </div>
+            </div>
+            
+            
+            <div class="planet-container">
+                
+              <img class="planet" id="mars" src="Images/mars.png" alt="mars">
+                
+            <div class="desc">
+                        
+                        Mars is pretty popular in recent times due to being our closest neighbor, and looking like a realistic possiblity for future settlement in case life is found there. We are currently sending many teams to research the possibility of liquid water on Mars. 
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Red </li>
+                        <li> <span>Size Rank</span>: 7 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Mars </div>
+                
+            </div>
+            
+            <div class="planet-container">
+                
+              <img class="planet" id="earth" src="Images/earth.png" alt="earth">
+                
+            <div class="desc">
+                        
+                        Earth is the most important planet in this list, for obvious reasons. The place we call Home is truly a beautiful planet, and the only one known to have life. 
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Blue </li>
+                        <li> <span>Size Rank</span>: 5 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Earth </div>
+                
+            </div>
+            
+            <div class="planet-container">
+                
+             <img class="planet" id="venus" src="Images/venus.png" alt="neus">
+                
+            <div class="desc">
+                        
+                        Venus can be thought of as Earth's twin in regards to its size, but it is more like Earth's evil twin in regards to its atmosphere. Known for extremely hot temperatures and acid rains, it is not a place that seems as welcoming as Earth.
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Yellow </li>
+                        <li> <span>Size Rank</span>: 6 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Venus </div>
+                
+            </div>
+            
+            <div class="planet-container">
+                
+             <img class="planet" id="mercury" src="Images/mercury.png" alt="mercury">
+                
+            <div class="desc">
+                        
+                        Mercury is the closest planet to the Sun, and also the smallest planet in our Solar System now that Pluto doesn't make the list. It's nearly half of the Earth's size, and like Earth, has ice-capped poles. 
+                
+                <ul class="desc-list">
+                    
+                        <li> <span>Primary Color</span>: Orange </li>
+                        <li> <span>Size Rank</span>: 8 </li>
+                        
+                    </ul>
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> Mercury </div>
+                
+            </div>
+            
+            <div class="sun">
+                
+            <img class="planet" id="sun" src="Images/sun.png" alt="sun">
+                
+            <div class="desc">
+                        
+                        The Sun is the lone Star in our Solar System. All the planets in the Solar System rotate around The Sun. It has a huge amount of nuclear energy and constantly has nuclear fission on its surface. 
+                
+                        <button class="but">Back</button>
+                    
+                    </div>
+                
+                <div class="name"> The Sun </div>
+                
+            </div>
+        
         </div>
         
+          <div class="footer"> <a href="http://www.mehtabc.com">Mehtab</a>, Dejan, Shulvi, and Abi. </div>
         
-        <script src="jquery.js"></script>
-        <script src="index.js"></script>
+        
+        <script src="JS/jquery.js"></script>
+        <script src="JS/rotate.js"></script>
+        <script src="JS/index.js"></script>
     </body>
     
 </html>

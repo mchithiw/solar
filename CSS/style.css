@@ -1,0 +1,425 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Raleway";
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../Images/star.jpg");
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    border: none;
+    color: #4d8eb1;
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+}
+
+.desc-list{
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.desc-list li{
+    margin: 2% auto;
+}
+
+.desc-list li span{
+    color: #6cb4db;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    font-size: 3.5vh;
+    line-height: 10vh;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    top: 95%;
+    left: 0%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 2vh;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 15%;
+    left: 0%;
+}
+
+.orbit{
+    position: absolute;
+    background: transparent;
+    border: 1px solid #a6b8e2;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#neptune-orbit{
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+#uranus-orbit{
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+#saturn-orbit{
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+}
+
+#jupiter-orbit{
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+}
+
+#mars-orbit{
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+#earth-orbit{
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+}
+
+#venus-orbit{
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+}
+
+#mercury-orbit{
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+}
+
+#neptune{
+    position: absolute;
+    top: 80%;
+    left: 79%;
+    width: 5%;
+    height: 6%;
+}
+
+#uranus{
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    width: 30px;
+    height: 30px;
+    width: 5%;
+    height: 6%;
+}
+
+#saturn{
+    position: absolute;
+    top: 44%;
+    left: 11.5%;
+    width: 30px;
+    height: 30px;
+    width: 7.5%;
+    height: 8.5%;
+}
+
+#jupiter{
+    position: absolute;
+    top: 16%;
+    left: 47%;
+    width: 30px;
+    height: 30px;
+    width: 7%;
+    height: 8%;
+}
+
+#mars{
+    position: absolute;
+    top: 47%;
+    left: 73.5%;
+    width: 30px;
+    height: 30px;
+    width: 3%;
+    height: 5%;
+}
+
+#earth{
+    position: absolute;
+    top: 33.5%;
+    left: 33.5%;
+    width: 30px;
+    height: 30px;
+    width: 4%;
+    height: 6%;
+}
+
+#venus{
+    position: absolute;
+    top: 37.75%;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+    width: 3%;
+    height: 5%;
+}
+
+#mercury{
+    position: absolute;
+    top: 52.5%;
+    left: 40.5%;
+    width: 30px;
+    height: 30px;
+    width: 3%;
+    height: 5%;
+}
+
+#sun{
+    position: absolute;
+    top: 46%;
+    left: 47%;
+    width: 30px;
+    height: 30px;
+    width: 6.5%;
+    height: 9%;
+}
+
+.planet{
+    cursor: pointer;
+}
+
+.desc{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.but{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    color: white;
+    background-color: #284676;
+    border: 1px solid #4d8eb1;
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+}
+
+.name{
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: -5%;
+    left: 10%;
+    text-align: center;
+    font-size: 4.5vmin;
+    color: #6cb4db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------
+.system{
+    position: absolute;
+    list-style: none;
+    width: 90%;
+    height: 50%;
+    top: 25%;
+    left: 0%;
+}
+
+.desc{
+    position: absolute;
+    top: 25%;
+    left: 10vw;
+    width: 80vw;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+    border-top-left-radius: 50px;
+    border: 5px solid white;
+}
+
+.but{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    color: black;
+}
+
+.system li{
+    display: inline;
+    height: 100%;
+    margin: 0 1.5vw;
+}
+
+.object{
+    cursor: pointer;
+}
+
+#sun{
+    width: 123px;
+    height: 125px;
+}
+
+#mercury{
+    width: 45px;
+    height: 43px;
+}
+
+#venus{
+    width: 50px;
+    height: 50px;
+}
+
+#earth{
+    width: 57px;
+    height: 57px;
+}
+
+#mars{
+    width: 50px;
+    height: 50px;
+}
+
+#jupiter{
+    width: 75px;
+    height: 75px;
+}
+
+#saturn{
+    width: 65px;
+    height: 65px;
+}
+
+#uranus{
+    width: 60px;
+    height: 60px;
+}
+
+#neptune{
+    width: 62px;
+    height: 62px;
+}
+
+@media (max-width: 990px) {
+    
+    .system li{
+        margin: 0 1vw;
+    }
+    
+    #sun{
+        width: 93px;
+        height: 94px;
+    }
+
+    #mercury{
+        width: 34px;
+        height: 33px;
+    }
+
+    #venus{
+        width: 38px;
+        height: 38px;
+    }
+
+    #earth{
+        width: 43px;
+        height: 43px;
+    }
+
+    #mars{
+        width: 38px;
+        height: 38px;
+    }
+
+    #jupiter{
+        width: 56px;
+        height: 56px;
+    }
+
+    #saturn{
+        width: 49px;
+        height: 49px;
+    }
+
+    #uranus{
+        width: 45px;
+        height: 45px;
+    }
+
+    #neptune{
+        width: 46px;
+        height: 46px;
+    }
+    
+} */
