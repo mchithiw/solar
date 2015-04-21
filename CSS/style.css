@@ -74,6 +74,18 @@ a:hover{
     left: 0%;
 }
 
+.exit{
+    position: absolute;
+    width: 11%;
+    height: 7%;
+    left: 3%;
+    top: 5%;
+    border: 1px solid white;
+    background-color: black;
+    padding: none;
+    font-size: 14px;
+}
+
 .orbit{
     position: absolute;
     background: transparent;
@@ -234,7 +246,11 @@ a:hover{
 
 .desc{
     position: absolute;
+<<<<<<< HEAD
     top: 15%;
+=======
+    top: 25%;
+>>>>>>> origin/master
     left: 15%;
     width: 70%;
     height: 50%;

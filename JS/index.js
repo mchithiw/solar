@@ -3,6 +3,10 @@ $(function() {
     $(".desc").hide();
     $(".name").hide();
     
+    $(".exit").click(function() {
+        window.location.href="http://www.google.com";
+    });
+    
     $(".planet").click(function() {
         $(".planet").hide();
         $(".orbit").hide();
