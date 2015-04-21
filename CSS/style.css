@@ -42,6 +42,7 @@ a:hover{
 .desc-list li span{
     color: #6cb4db;
 }
+
 .header{
     position: fixed;
     width: 100%;
@@ -233,12 +234,16 @@ a:hover{
 
 .desc{
     position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 50%;
+    top: 15%;
+    left: 15%;
+    width: 70%;
     height: 50%;
     text-align: center;
     align-content: center;
+}
+
+.desc-list{
+    list-style: none;
 }
 
 .but{
